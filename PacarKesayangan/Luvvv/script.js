@@ -82,8 +82,9 @@ document.querySelector(".tombol").addEventListener('click', function () {
                 })
               })
             } else if (result.isDenied) {
-              Swal.fire(`Yakin ga suka sama ${sender}?`, '', 'error').then(function () {
+              Swal.fire(`Yakin ga sayang sama ${sender}?`, '', 'error').then(function () {
                 Swal.fire('Yaudah deh bye!')
+                Swal.fire('Gausah ganggu aku lagi!')
               })
             }
           })
